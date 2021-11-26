@@ -27,6 +27,11 @@ console.log(citacao2);
     Mais detalhes precisos e documentação sobre o Unicode na página da Unicode Foundation.
     https://home.unicode.org/
 
+
+
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos
+
 */
 
 const cifrao = '\u0024';
@@ -42,3 +47,15 @@ console.log(zMinusculo);
 console.log(tique);
 console.log(hiragana);
 console.log(anjo);
+
+
+const cidade = "belo horizonte";
+const input = "Belo Horizonte";
+
+console.log("str ===");
+console.log(cidade == input);
+console.log(cidade === input);
+
+const inputMinusculo = input.toLowerCase();
+console.log(cidade === inputMinusculo);
+
