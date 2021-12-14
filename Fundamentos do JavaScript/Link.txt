@@ -1,1 +1,4 @@
 https://cursos.alura.com.br/course/fundamentos-javascript-tipos-variaveis-funcoes
+
+User Story -> 8265
+Tasks -> 8266
