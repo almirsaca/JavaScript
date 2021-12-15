@@ -2,3 +2,6 @@ https://cursos.alura.com.br/course/fundamentos-javascript-tipos-variaveis-funcoe
 
 User Story -> 8265
 Tasks -> 8266
+
+// Documentacao node.js
+https://nodejs.org/pt-br/docs/
