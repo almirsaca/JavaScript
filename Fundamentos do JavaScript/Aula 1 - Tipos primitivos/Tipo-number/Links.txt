@@ -1,6 +1,0 @@
-Como formatar número com JavaScript
-https://www.alura.com.br/artigos/formatando-numeros-no-javascript
-
-Como ordenar uma sequência de números no JavaScript
-https://www.alura.com.br/artigos/ordenacao-de-numeros-no-javascript-nao-funciona
-
