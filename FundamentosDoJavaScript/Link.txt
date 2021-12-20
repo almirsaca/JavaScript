@@ -5,3 +5,6 @@ Tasks -> 8266
 
 // Documentacao node.js
 https://nodejs.org/pt-br/docs/
+
+// Documentacao node.js - Arrays
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
