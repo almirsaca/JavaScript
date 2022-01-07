@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIGRAÇÃO</title>
+</head>
+<body>
+    <h1>Sistema de Migração</h1>
+    Qual o seu País de origem? <input type="text" id="idPais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="idResultado"></div>
+    <script>
+        function verificar() {
+            var resultado = document.querySelector('div#idResultado');
+            var pais = document.querySelector('input#idPais');
+            if (pais.value == '') {
+                resultado.innerHTML = '</br>Escreva um Pais de origem.';
+            }
+            else if (pais.value.toLowerCase() == 'brasil')
+                resultado.innerHTML = `</br>Você é <strong>BRASILEIRO!</strong>`;
+            else {
+                resultado.innerHTML = `</br>Você é IMPORTADO!!!`;
+            }
+        }
+    </script>
+</body>
+</html>
